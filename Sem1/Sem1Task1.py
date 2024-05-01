@@ -27,3 +27,10 @@ time = (distance + (speed - 1)) // speed
 # Вариант 3
 
 time = (distance - 1) // speed + 1
+
+# Вариант 4
+
+n = int(input())
+m = int(input())
+
+print((m+n-1)//n)

@@ -9,6 +9,8 @@
 # Input: 3 4(ввод на разных строках)
 # Output: 6
 
+# Вариант 1
+
 count_vagon = int(input("Введите счет вагона: "))
 number_vagon = int(input("Введите номер вагона: "))
 
@@ -18,4 +20,12 @@ else:
         vagon_all = count_vagon + number_vagon - 1
         print(f"Кол-во вагонов: {vagon_all}")
 
+# Вариант 2
 
+i = int(input())
+j = int(input())
+
+if i - j == 0:
+        print(-1)
+else:
+        print(i + j - 1)
