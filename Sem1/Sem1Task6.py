@@ -6,6 +6,8 @@
 # 385916 -> yes
 # 123456 -> no
 
+# Решение задачи самопроверки
+
 billet = input('Введите номер билета: ')
 
 left = int(billet[0]) + int(billet[1]) + int(billet[2])
