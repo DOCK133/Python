@@ -14,3 +14,10 @@ if k % n == 0 or k % m == 0:
     print('Yes')
 else:
     print('No')
+
+# Решение автотеста
+
+if c <= b * a and (c % a == 0 or c % b == 0):
+    print('yes')
+else:
+    print('no')
